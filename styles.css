@@ -1,0 +1,52 @@
+body {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.glow {
+    text-shadow: 0px 0px 20px #ff00ff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff00ff;
+}
+
+/* Sparkle Effect */
+.sparkle-effect {
+    width: 100px;
+    height: 100px;
+    background-image: url('sparkle.png');
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Magic Glow Effect */
+.magic-glow-effect {
+    width: 150px;
+    height: 150px;
+    background-image: url('magic-dust.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
